@@ -1,0 +1,97 @@
+10-Day TypeScript Learning Plan (1 Hour Daily)
+
+Day 1 - Getting Started
+Introduction
+Setting up the Environment for TypeScript
+Installing TypeScript
+Installing Essential VS Code Extensions
+Setting Up & Compiling a TypeScript Project
+
+Day 2 - Basic TypeScript Concepts
+Introduction to Basic Types
+Primitive Types
+Arrays
+Tuples
+
+Day 3 - Advanced Data Types
+Enums
+Any, Unknown, Void & More
+
+Day 4 - Type Inference & Type Annotations
+Introduction to Type Inference & Type Annotations
+Type Annotations
+Introduction to Interfaces & Type Aliases
+
+Day 5 - Interfaces & Type Aliases Deep Dive
+Extending Interfaces
+Fundamentals of Type Aliases
+Intersection Types
+
+Day 6 - Classes & Objects (Part 1)
+Introduction to Classes & Objects
+Fundamentals of Classes & Objects
+Classes & Objects: Constructor
+Classes & Objects: this Keyword
+
+Day 7 - Classes & Objects (Part 2)
+Public & Private Access Modifier
+Protected Access Modifier
+Optional Properties
+Parameter Properties
+
+Day 8 - Classes & Objects (Part 3)
+Getters & Setters
+Static Members
+Abstract Classes
+
+Day 9 - Functions & Advanced Concepts
+Introduction to Functions
+Rest Parameter
+Function Overloading
+Generics
+
+Day 10 - Final Touch & Practice
+Modules
+Type Assertions
+Type Guards
+Upcoming Stuff & Review
+
+
+
+Your Level After 10 Days
+✅ You will understand TypeScript fundamentals clearly.
+✅ You will write TypeScript code fluently with proper types.
+✅ You will be comfortable with interfaces, classes, and advanced types like generics.
+✅ You will be able to use TypeScript in projects (React, Node.js, etc.).
+
+
+
+How to Become an Expert?
+To reach an expert level, you need to:
+1️⃣ Build Real-World Projects (TypeScript with React, Next.js, Express.js).
+2️⃣ Deep Dive into Advanced Topics (Utility Types, Type Narrowing, Mapped Types).
+3️⃣ Read TypeScript Documentation (TS Handbook, DefinitelyTyped).
+4️⃣ Work on Open Source Projects (Contribute to GitHub projects).
+5️⃣ Solve TypeScript Challenges (LeetCode, CodeWars, Type Challenges).
+6️⃣ Teach or Write About TypeScript (Blogging, Tutorials).
+
+
+
+How Long to Become an Expert?
+⏳ With daily practice (2-3 hours), you can reach an expert level in about 2-3 months.
+
+💡 Bottom Line: After this routine, you'll be job-ready for TypeScript-based projects, but to become an expert, keep practicing and building projects! 🚀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
