@@ -1,8 +1,11 @@
-// Constructor
+class BottleMaker{
+    public name;
 
-class HumanMaker {
-  age = 0;
-  constructor(public name: string, public isHandsome: boolean) {}
+    constructor(name: string){
+        this.name = name;
+    }
 }
 
-const h1 = new HumanMaker("Salman", true);
+const bottleOne = new BottleMaker("Cola")
+
+
