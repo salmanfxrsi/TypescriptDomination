@@ -1,17 +1,12 @@
-// Protected: Access in derived (child) class
-// Private: Not access in derived (child) class
+// readonly: readonly is a keyword used to make properties immutable (unchangeable) after they are initialized.
 
-class BottleMaker {
-  protected name = "coke";
+class User {
+    constructor(public readonly name: string){}
+
+    changeName() {
+        this.name = 'Farsi' // we cannot change it after initialize if we use readonly
+    }
 }
 
-class MetaBottleMaker extends BottleMaker {
-  public material = "metal";
-  changeName() {
-    this.name = "alex";
-    console.log(this.name);
-  }
-}
-
-let b1 = new MetaBottleMaker();
-b1.changeName();
+let u1 = new User('Gilman')
+u1.changeName()
