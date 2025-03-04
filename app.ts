@@ -1,8 +1,8 @@
-class Student {
-    name = 'Alex Green';
-    roll = 42;
-    grade = 5.00;
+// Constructor
+
+class HumanMaker {
+  age = 0;
+  constructor(public name: string, public isHandsome: boolean) {}
 }
 
-let s1 = new Student();
-console.log(s1.name)
+const h1 = new HumanMaker("Salman", true);

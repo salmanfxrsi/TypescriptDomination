@@ -1,10 +1,10 @@
 "use strict";
-class Student {
-    constructor() {
-        this.name = 'Alex Green';
-        this.roll = 42;
-        this.grade = 5.00;
+// Constructor
+class HumanMaker {
+    constructor(name, isHandsome) {
+        this.name = name;
+        this.isHandsome = isHandsome;
+        this.age = 0;
     }
 }
-let s1 = new Student();
-console.log(s1.name);
+const h1 = new HumanMaker("Salman", true);
