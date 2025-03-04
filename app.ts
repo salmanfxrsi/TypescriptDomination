@@ -1,17 +1,17 @@
+// Protected: Access in derived (child) class
+// Private: Not access in derived (child) class
+
 class BottleMaker {
-  private color: string = "black"; // accessible in just inside a function
-  constructor(public name: string) {} // name accessible in anywhere
+  protected name = "coke";
 }
 
 class MetaBottleMaker extends BottleMaker {
-  constructor(name: string) {
-    super(name);
-  }
-
-  getValue() {
+  public material = "metal";
+  changeName() {
+    this.name = "alex";
     console.log(this.name);
   }
 }
 
-const b1 = new MetaBottleMaker("Coke");
-b1.getValue();
+let b1 = new MetaBottleMaker();
+b1.changeName();
