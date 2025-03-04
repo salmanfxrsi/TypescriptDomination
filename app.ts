@@ -1,12 +1,13 @@
-// readonly: readonly is a keyword used to make properties immutable (unchangeable) after they are initialized.
+// Optional Properties (?)
 
 class User {
-    constructor(public readonly name: string){}
-
-    changeName() {
-        this.name = 'Farsi' // we cannot change it after initialize if we use readonly
-    }
+  constructor(public name: string, public age?: number) {}
 }
 
-let u1 = new User('Gilman')
-u1.changeName()
+new User("Alex");
+
+// Parameter Properties
+
+class CarMaker {
+    constructor(public name: string, public brand: string ) {}
+}

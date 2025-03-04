@@ -1,12 +1,16 @@
 "use strict";
-// readonly: readonly is a keyword used to make properties immutable (unchangeable) after they are initialized.
+// Optional Properties (?)
 class User {
-    constructor(name) {
+    constructor(name, age) {
         this.name = name;
-    }
-    changeName() {
-        this.name = 'Farsi'; // we cannot change it after initialize if we use readonly
+        this.age = age;
     }
 }
-let u1 = new User('Gilman');
-u1.changeName();
+new User("Alex");
+// Parameter Properties
+class CarMaker {
+    constructor(name, brand) {
+        this.name = name;
+        this.brand = brand;
+    }
+}
